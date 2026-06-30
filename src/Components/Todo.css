@@ -1,0 +1,43 @@
+ body {
+     background-color: rgb(12, 120, 123);
+     display: flex;
+     justify-content: center;
+     height: 100vh;
+ }
+
+
+ .hd1,
+ .hd2 {
+     color: black;
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .todo-form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     max-width: 300px;
+     margin: auto;
+ }
+
+ .input-form {
+     padding: 15px;
+     margin-bottom: 10px;
+ }
+
+ .button {
+     background-color: brown;
+     color: white;
+     border: none;
+     width: 80px;
+ }
+
+ .button:hover {
+     background-color: chocolate;
+     color: whitesmoke;
+ }
+
+ .text {
+     height: 120px;
+ }
