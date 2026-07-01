@@ -1,18 +1,17 @@
-import { useState } from 'react'
-import { Routes, Route } from "react-router-dom";
-import './App.css'
-import Todo from './Components/Todo'
+import "./App.css";
+import TodoForm from "./Components/TodoForm";
+import TodoList from "./Components/TodoList";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <Routes>
-        <Route path='/' element={<Todo/>}/>
-      </Routes>
-    </>
-  )
+    <div className="container">
+      <h1>📝 Redux Todo</h1>
+
+      <TodoForm />
+
+      <TodoList />
+    </div>
+  );
 }
 
-export default App
+export default App;
